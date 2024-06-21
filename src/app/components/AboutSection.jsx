@@ -65,7 +65,7 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-transparent font-bold bg-clip-text bg-gradient-to-r from-purple-400 to-pink-500 text-4xl">About Me</h2>
           <p className="text-base lg:text-lg">
-          As a full-stack web developer, I excel at blending design and technology to create seamless experiences. With a strong foundation in networking and cryptography, I'm intrigued by blockchain's potential and am actively learning its intricacies. I approach challenges humbly, embracing continuous learning. My work ethic emphasizes diligence, efficiency, and growth. Always a student at heart, I'm committed to achieving my goals through hard work and ongoing learning.
+          As a full-stack web developer, I excel at blending design and technology to create seamless experiences. With a strong foundation in networking and cryptography, I am intrigued by blockchains potential and am actively learning its intricacies. I approach challenges humbly, embracing continuous learning. My work ethic emphasizes diligence, efficiency, and growth. Always a student at heart, Iam  committed to achieving my goals through hard work and ongoing learning.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton

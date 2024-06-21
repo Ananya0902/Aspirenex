@@ -17,7 +17,7 @@ const HeroSection = () => {
         >
           <h1 className="text-white mb-4  text-3xl sm:text-4xl lg:text-6xl lg:leading-normal font-extrabold">
             <span className=" text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-500 text-4xl sm:text-5xl lg:text-8xl">
-              Namaste, I'm{" "}
+              Namaste, I am{" "}
             </span>
             <br></br>
             <TypeAnimation 
@@ -37,7 +37,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-          Hi, I'm Ananya Srivastava, a final-year BTech (CSE) student at NIT Arunachal Pradesh. I specialize in full-stack web development and have a strong interest in blockchain technology. I'm committed to continuous learning and aspire to become a software developer.
+          Hi, I am Ananya Srivastava, a final-year BTech (CSE) student at NIT Arunachal Pradesh. I specialize in full-stack web development and have a strong interest in blockchain technology. I am committed to continuous learning and aspire to become a software developer.
           </p>
           <div>
             <Link
