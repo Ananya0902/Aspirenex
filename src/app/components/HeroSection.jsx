@@ -62,13 +62,16 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="col-span-4 place-self-center mt-4 lg:mt-0"
         >
-          <div className="rounded-full bg-[#231d2e] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
-            <Image
-              src="/images/girl.jpg"
-              alt="girl image"
-              className=" rounded-full absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-              width={300}
-              height={300}
+          <div className=" bg-[#231d2e] w-[200px] h-[200px] lg:w-[400px] lg:h-[400px] relative">
+          <motion.img
+              src="/images/giphy.gif" // Replace with your actual GIF URL
+              alt="animated gif"
+              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 "
+              width={350}
+              height={350}
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ duration: 0.3 }}
             />
           </div>
         </motion.div>

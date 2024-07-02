@@ -1,0 +1,32 @@
+.custom-cursor {
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 9999;
+  }
+  
+  .cursor-neon {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #e955b0; /* Neon pink color */
+    mix-blend-mode: screen; /* Neon effect */
+    transition: transform 0.5s ease-out;
+    z-index: 99999;
+    transform: translate(-50%, -50%);
+  }
+  
+  .cursor-trail {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #FF6EC7; /* Neon pink color */
+    mix-blend-mode: screen; /* Neon effect */
+    z-index: 9999;
+    transform: translate(-50%, -50%);
+  }
+  
+  

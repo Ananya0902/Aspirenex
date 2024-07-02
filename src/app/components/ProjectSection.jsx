@@ -1,4 +1,4 @@
-"use client";
+"use client ";
 import React, { useState, useRef } from "react";
 import ProjectCard from "./ProjectCard";
 import ProjectTag from "./ProjectTag";
@@ -11,7 +11,7 @@ const projectsData = [
     description: "Craft my professional story with a beautifully designed portfolio website powered by Next.js, enriched with interactive animations and TypeScript. Showcase my creativity and achievements with a seamless and captivating user experience, tailored to impress and engage visitors",
     image: "/images/portfolio.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/Ananya0902/Ananya-Portfolio",
     
   },
   {
@@ -68,15 +68,17 @@ const ProjectSection = () => {
 
   const cardVariants = {
     initial: { y: 50, opacity: 0 },
-    animate: { y: 0, opacity: 1 },
+    animate: { y: 5, opacity: 1 },
   };
 
+ 
+
   return (
-    <section id="projects">
-      <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
+    <section id="projects" className="mt-6 p-6">
+      <h2 className="text-center text-4xl font-bold text-white my-20 md:mb-12">
         My Projects
       </h2>
-      <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
+      <div className="text-white flex flex-row justify-center items-center gap-2 pb-8">
         <ProjectTag
           onClick={handleTagChange}
           name="All"
@@ -100,7 +102,7 @@ const ProjectSection = () => {
             variants={cardVariants}
             initial="initial"
             animate={isInView ? "animate" : "initial"}
-            transition={{ duration: 0.3, delay: index * 0.4 }}
+            transition={{ duration: 1, delay: index * 0.5 }}
           >
             <ProjectCard
               key={project.id}

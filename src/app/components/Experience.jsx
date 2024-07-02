@@ -27,17 +27,17 @@ const Experience = () => {
   ];
 
   return (
-    <div id="experiences" className="max-w-4xl mx-auto mt-20 p-6 shadow-md rounded-md bg-[#120926] text-white">
-      <h1 className="text-3xl font-semibold text-center my-6 text-white">My Professional Experience</h1>
+    <div id="experiences" className="max-w-4xl mx-auto mt-6 p-6 shadow-md rounded-md bg-[#120926] text-white">
+      <h1 className="text-3xl font-semibold text-center my-20 text-white">My Professional Experience</h1>
       <div className="space-y-8">
         {experiences.map((experience, index) => (
           <div key={index} className="p-4 bg-[#120926] rounded-md">
-            <h3 className="text-xl font-bold">{experience.companyName}</h3>
+            <h3 className="text-xl font-bold hover:text-pink-800 transition-duration-250">{experience.companyName}</h3>
             <p className="text-sm text-gray-600">{experience.position}</p>
             <p className="text-sm text-gray-600">
               {experience.startDate} - {experience.endDate}
             </p>
-            <p className="mt-2">{experience.description}</p>
+            <p className="mt-2 hover:text-pink-400 transition-duration-250">{experience.description}</p>
           </div>
         ))}
       </div>
